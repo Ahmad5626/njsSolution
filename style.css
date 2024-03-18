@@ -1664,7 +1664,7 @@ width: 30%;
     background-color: #02021e;
 }
 
-.gradient-container[_ngcontent-serverApp-c65] {
+.name-child[_ngcontent-serverApp-c65] {
     background: linear-gradient(180deg, rgba(94, 79, 79, .42) 0%, rgba(11, 15, 19, 0) 113.42%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -1673,7 +1673,8 @@ width: 30%;
 }
 
 
-.shimmer[_ngcontent-serverApp-c65] {
+.name-child1[_ngcontent-serverApp-c65] {
+    
     font-size: 120px;
     font-style: normal;
     font-weight: 1000;
@@ -1704,6 +1705,6 @@ width: 30%;
 }
 
 @media(max-width:420px){
-    .shimmer[_ngcontent-serverApp-c65] {
+    .name-child1[_ngcontent-serverApp-c65] {
         font-size: 50px;} 
 }
