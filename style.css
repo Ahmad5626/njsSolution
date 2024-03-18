@@ -270,7 +270,7 @@ nav {
 @media(max-width:420px){
     .main {
         position: relative;
-        height: 73vh;
+        height: 70vh;
         width: 100%;
         overflow: hidden !important;
     }
@@ -1520,7 +1520,7 @@ nav {
     padding: 72px 98px 144px;
     display: flex;
     justify-content: space-between;
-    background-color: #111022;
+    background-color:#02021e;
 }
 .footer1{
     width: 20%;
@@ -1655,4 +1655,55 @@ width: 30%;
         line-height: 1.2em;
         text-align: ;
     }
+    .footer {
+        padding: 72px 23px 33px;}
+}
+
+
+.name{
+    background-color: #02021e;
+}
+
+.gradient-container[_ngcontent-serverApp-c65] {
+    background: linear-gradient(180deg, rgba(94, 79, 79, .42) 0%, rgba(11, 15, 19, 0) 113.42%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+
+.shimmer[_ngcontent-serverApp-c65] {
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 179.262px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, .4) 0%, rgba(217, 217, 217, 0) 100%);
+    background-position: -4rem top;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-name: _ngcontent-serverApp-c65_shimmer;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-background-size: 125px 100%;
+    text-align: center;
+    animation: x 6s  linear infinite;
+}
+
+@keyframes x {
+    0% {
+        background-position-x: 0%;
+    }
+    50% {
+        background-position-x: 100%;
+    }
+    100% {
+        background-position-x: 0%;
+    }
+}
+
+@media(max-width:420px){
+    .shimmer[_ngcontent-serverApp-c65] {
+        font-size: 50px;} 
 }
